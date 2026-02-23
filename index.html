@@ -3,29 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
     <title>Catálogo | P&P Soluciones</title>
+
+    <meta name="description" content="Catálogo digital de P&P Soluciones. Papelería, tecnología y suministros en Montalbán, Caracas. Haz tu pedido en línea aquí.">
+    <meta name="keywords" content="P&P Soluciones, Papelería Caracas, Montalbán, Útiles escolares, Tecnología, Ventas Caracas">
+    <meta name="author" content="Lesme Pesquera - P&P Soluciones">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+
     <style>
-        /* Eliminamos cualquier margen del navegador */
+        /* Estilos Pro para eliminar márgenes y asegurar pantalla completa */
         body, html { 
             margin: 0; 
             padding: 0; 
             height: 100%; 
             width: 100%; 
-            overflow: hidden; 
+            overflow: hidden; /* Evita que la página principal tenga scroll propio */
             background-color: #ffffff;
+            font-family: Arial, sans-serif;
         }
-        /* Forzamos al iframe a ser el dueño de la pantalla */
-        iframe { 
+
+        /* Contenedor del sistema */
+        .main-container {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%; 
             height: 100%; 
+        }
+
+        /* Configuración del Iframe para que sea responsivo */
+        iframe { 
+            width: 100%; 
+            height: 100%; 
             border: none;
+            display: block;
         }
     </style>
 </head>
 <body>
-    <iframe src="https://script.google.com/macros/s/AKfycbzeto8ohbJe3BawrAu5Us3I4CcO1Mp8_QtU1-OZMq7gPAOB2hrzIrdip51QHr6chMFA/exec" allowfullscreen="true"></iframe>
+
+    <div class="main-container">
+        <iframe 
+            src="https://script.google.com/macros/s/AKfycbzeto8ohbJe3BawrAu5Us3I4CcO1Mp8_QtU1-OZMq7gPAOB2hrzIrdip51QHr6chMFA/exec" 
+            allowfullscreen="true"
+            allow="geolocation; microphone; camera">
+        </iframe>
+    </div>
+
 </body>
 </html>
