@@ -13,18 +13,16 @@
     <link rel="icon" type="image/png" href="favicon.png">
 
     <style>
-        /* Estilos Pro para eliminar márgenes y asegurar pantalla completa */
         body, html { 
             margin: 0; 
             padding: 0; 
             height: 100%; 
             width: 100%; 
-            overflow: hidden; /* Evita que la página principal tenga scroll propio */
+            overflow: hidden; 
             background-color: #ffffff;
             font-family: Arial, sans-serif;
         }
 
-        /* Contenedor del sistema */
         .main-container {
             position: absolute;
             top: 0;
@@ -33,7 +31,6 @@
             height: 100%; 
         }
 
-        /* Configuración del Iframe para que sea responsivo */
         iframe { 
             width: 100%; 
             height: 100%; 
@@ -48,7 +45,7 @@
         <iframe 
             src="https://script.google.com/macros/s/AKfycbzeto8ohbJe3BawrAu5Us3I4CcO1Mp8_QtU1-OZMq7gPAOB2hrzIrdip51QHr6chMFA/exec" 
             allowfullscreen="true"
-            allow="geolocation; microphone; camera">
+            allow="geolocation; microphone; camera; clipboard-read; clipboard-write; web-share">
         </iframe>
     </div>
 
