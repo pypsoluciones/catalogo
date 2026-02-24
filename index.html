@@ -9,8 +9,15 @@
     <meta name="keywords" content="P&P Soluciones, Papelería Caracas, Montalbán, Útiles escolares, Tecnología, Ventas Caracas">
     <meta name="author" content="Lesme Pesquera - P&P Soluciones">
     
-    <link rel="icon" type="image/png" href="https://i.ibb.co/tpY3X6yY/Favicon-P-P-Soluciones.png">
-    <link rel="apple-touch-icon" href="https://i.ibb.co/tpY3X6yY/Favicon-P-P-Soluciones.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="P&P Soluciones">
+    <meta name="theme-color" content="#1B2631">
+    
+    <link rel="icon" type="image/png" href="ENLACE_DE_TU_LOGO_AQUI">
+    <link rel="apple-touch-icon" href="ENLACE_DE_TU_LOGO_AQUI">
     
     <style>
         body, html { margin: 0; padding: 0; height: 100%; width: 100%; overflow: hidden; background-color: #ffffff; font-family: Arial, sans-serif; }
@@ -28,10 +35,10 @@
         // 1. Enlace oficial de tu App Script
         var scriptUrl = "https://script.google.com/macros/s/AKfycbzeto8ohbJe3BawrAu5Us3I4CcO1Mp8_QtU1-OZMq7gPAOB2hrzIrdip51QHr6chMFA/exec";
         
-        // 2. Tomamos cualquier parámetro que venga en el enlace compartido (ej. ?p=CODIGO)
+        // 2. Tomamos cualquier parámetro que venga en el enlace
         var parametros = window.location.search;
         
-        // 3. Unimos ambas partes y abrimos el catálogo en el producto exacto
+        // 3. Unimos ambas partes y abrimos el catálogo
         document.getElementById("miIframe").src = scriptUrl + parametros;
     </script>
 
