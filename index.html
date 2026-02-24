@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Catálogo | P&P Soluciones</title>
+    
     <meta name="description" content="Catálogo digital de P&P Soluciones. Papelería, tecnología y suministros en Montalbán, Caracas. Haz tu pedido en línea aquí.">
     <meta name="keywords" content="P&P Soluciones, Papelería Caracas, Montalbán, Útiles escolares, Tecnología, Ventas Caracas">
     <meta name="author" content="Lesme Pesquera - P&P Soluciones">
-    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <link rel="icon" type="image/png" href="https://i.ibb.co/tpY3X6yY/Favicon-P-P-Soluciones.png">
+    <link rel="apple-touch-icon" href="https://i.ibb.co/tpY3X6yY/Favicon-P-P-Soluciones.png">
+    
     <style>
         body, html { margin: 0; padding: 0; height: 100%; width: 100%; overflow: hidden; background-color: #ffffff; font-family: Arial, sans-serif; }
         .main-container { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
@@ -21,13 +25,13 @@
     </div>
 
     <script>
-        // 1. Aquí colocamos el enlace oficial de tu App Script
+        // 1. Enlace oficial de tu App Script
         var scriptUrl = "https://script.google.com/macros/s/AKfycbzeto8ohbJe3BawrAu5Us3I4CcO1Mp8_QtU1-OZMq7gPAOB2hrzIrdip51QHr6chMFA/exec";
         
-        // 2. Tomamos cualquier código de producto que venga en el enlace (ej: ?p=FOTO-022)
+        // 2. Tomamos cualquier parámetro que venga en el enlace compartido (ej. ?p=CODIGO)
         var parametros = window.location.search;
         
-        // 3. Unimos ambas partes y abrimos el sistema
+        // 3. Unimos ambas partes y abrimos el catálogo en el producto exacto
         document.getElementById("miIframe").src = scriptUrl + parametros;
     </script>
 
