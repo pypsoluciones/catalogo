@@ -1,4 +1,3 @@
-// Motor de instalación de la App P&P Soluciones
 self.addEventListener('install', (e) => {
   self.skipWaiting();
 });
@@ -8,6 +7,5 @@ self.addEventListener('activate', (e) => {
 });
 
 self.addEventListener('fetch', (e) => {
-  // Permite que el catálogo cargue en línea siempre
-  e.respondWith(fetch(e.request));
+  // Solo escuchamos el evento para que Chrome apruebe la instalación de la PWA
 });
