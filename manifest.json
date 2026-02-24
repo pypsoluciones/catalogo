@@ -7,7 +7,12 @@
   "theme_color": "#1B2631",
   "icons": [
     {
-      "src": "https://i.ibb.co/tpY3X6yY/Favicon-P-P-Soluciones.png",
+      "src": "ENLACE_DE_TU_LOGO_AQUI",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "ENLACE_DE_TU_LOGO_AQUI",
       "sizes": "512x512",
       "type": "image/png"
     }
