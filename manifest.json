@@ -1,7 +1,8 @@
 {
   "name": "P&P Soluciones",
-  "short_name": "Catálogo P&P",
-  "start_url": "https://pypsoluciones.github.io/catalogo/",
+  "short_name": "P&P App",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#1B2631",
@@ -9,12 +10,14 @@
     {
       "src": "ENLACE_DE_TU_LOGO_AQUI",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "ENLACE_DE_TU_LOGO_AQUI",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
