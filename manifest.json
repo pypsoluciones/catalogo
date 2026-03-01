@@ -1,6 +1,6 @@
 {
   "name": "P&P Soluciones",
-  "short_name": "P&P App",
+  "short_name": "P&P Soluciones",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -9,13 +9,13 @@
   "icons": [
     {
       "src": "https://i.ibb.co/PJrswd5/Favicon-Centrado-P-P-Soluciones.png",
-      "sizes": "192x192",
+      "sizes": "160x160",
       "type": "image/png",
       "purpose": "any"
     },
     {
       "src": "https://i.ibb.co/1JbM6570/Favicon-Centrado-Completo-P-P-Soluciones.png",
-      "sizes": "600x600",
+      "sizes": "700x700",
       "type": "image/png",
       "purpose": "any"
     }
