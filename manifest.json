@@ -9,13 +9,13 @@
   "icons": [
     {
       "src": "https://i.ibb.co/PJrswd5/Favicon-Centrado-P-P-Soluciones.png",
-      "sizes": "160x160",
+      "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
       "src": "https://i.ibb.co/1JbM6570/Favicon-Centrado-Completo-P-P-Soluciones.png",
-      "sizes": "700x700",
+      "sizes": "600x600",
       "type": "image/png",
       "purpose": "any"
     }
