@@ -11,13 +11,13 @@
       "src": "https://i.ibb.co/PJrswd5/Favicon-Centrado-P-P-Soluciones.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "maskable"
     },
     {
       "src": "https://i.ibb.co/1JbM6570/Favicon-Centrado-Completo-P-P-Soluciones.png",
       "sizes": "600x600",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "maskable"
     }
   ]
 }
